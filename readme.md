@@ -24,8 +24,8 @@ _Optional for Raspbain lite version_
 ### Installing packages
 
 ```
-	npm install raspi-io
-	npm install johnny-five
+    npm install raspi-io
+    npm install johnny-five
 ```
 
 
@@ -45,7 +45,7 @@ plug your relay on pin number `11` or `GPIO17` then run the command below
    node relay.js
 ```
 
-you will see the relay will turn on for 3 seconds and you can also running command `relay.on()` and `relay.off` for manually turn relay on and off
+you will see the relay will turn on for 3 seconds and you can also running command `relay.on()` and `relay.off()` for manually turn relay on and off
 
 __example 2: control a set of relays__
 in this case, I used 6 relays on pins `11, 12, 13, 15, 16 and 18` or `GPIO17, 18, 22, 23, 24, 27` after plugged all of relays.
